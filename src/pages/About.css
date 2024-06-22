@@ -11,5 +11,6 @@
 @media (max-width: 768px) {
   .aboutcontainer {
     z-index: 22;
+    clip-path:none;
   }
 }
