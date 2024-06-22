@@ -1,5 +1,5 @@
 import { CgMail } from "react-icons/cg";
-import { CiLocationOn } from "react-icons/ci";
+
 import { FaBehance, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 function Contacts() {
