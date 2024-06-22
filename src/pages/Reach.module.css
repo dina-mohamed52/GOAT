@@ -14,10 +14,11 @@
   font-style: normal;
 }
 @media (max-width: 768px) {
-    .Rcontainer{
-        height: auto;
-        margin-top: -38rem;
+     .Rcontainer{
+        height: 220vh;
+        margin-top: 0rem;
      z-index: 10;
+    clip-path:none;
         
     }
 }
