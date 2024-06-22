@@ -1,0 +1,88 @@
+.container{
+    background:linear-gradient(to right bottom ,#53b470d0, #6a8f75d0),
+    url("../assets/vitaly-gariev-VLX1Xf2d8Gs-unsplash.jpg");
+    background-size:cover;
+    background-position: top;
+    height:95vh;
+     clip-path: polygon(0% 0%, 100% 0%, 100% 75vh,0% 100%);
+     position: relative;
+  margin-top: -1.5rem;
+  z-index: 1;
+}
+.title{
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    text-align: center;
+    margin-top: auto  ;
+  font-weight: bold;
+    animation: moveInTop 2s ease-out forwards;
+}
+.subtitle{
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    font-weight:600;
+     animation: moveInRight 2s ease-out forwards;
+}
+.btn{
+    /* left: 38%; */
+  font-weight: 400;
+}
+.btn:hover{
+    transform: translateY(-1rem);
+}
+.btn:hover::after{
+  background-color: #fff;
+  transform: scaleX(1.5) scaleY(1.7);
+  
+  opacity: 0;
+ 
+  transition: all 0.3s ease-in-out ;
+}
+
+
+ .Banimation{
+  animation: moveInBottom 2s ease-out;
+  
+ }
+ @keyframes moveInBottom{
+  0%{
+opacity: 0;
+transform:translateY(10rem)
+  }
+
+  100%{
+    transform:translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveInRight {
+ 0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(4rem);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .container{
+    z-index: 25;
+  }
+}

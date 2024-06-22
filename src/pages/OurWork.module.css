@@ -1,0 +1,20 @@
+.workcontainer {
+  background-color: #E5E7EB;
+  height: auto;
+  padding: 20rem 0;
+  margin-top: -45vh;
+  /* clip-path: polygon(0% 0%, 100% 0%, 100% 69%, 0% 80%); */
+ /* z-index: -1; */
+  position: relative;
+
+}
+.sha{
+     box-shadow: 0 0.3rem 1rem rgba(45, 194, 52, 0.815);
+}
+@media (max-width: 768px) {
+  .workcontainer {
+    margin-top: -100vh;
+    padding: 35rem 0;
+
+  }
+}
