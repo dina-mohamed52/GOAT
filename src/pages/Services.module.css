@@ -48,6 +48,7 @@
     align-items: center;
      clip-path: polygon(0% 0%, 100% 0%, 100% 195vh, 0% 88%);
      margin-top: -52vh;
+    clip-path: none;
   }
 
   .serviceCard {
