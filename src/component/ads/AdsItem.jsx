@@ -26,18 +26,18 @@ function AdsItem() {
         onChange={setSelectedType}
         value={selectedType}
       />
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 mt-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  p-4 mt-16">
         {filteredData.map((item) => (
           <div
             key={item.id}
-            className="bg-white max-w-sm w-full ml-6 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 cursor-pointer"
+            className="bg-white   rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 cursor-pointer"
             onClick={() => window.open(item.onclickLink, "_blank")}
           >
             <div className="relative group">
               <img
                 src={item.ads}
                 alt="image_"
-                className="w-full h-[22rem] rounded-lg object-cover"
+                className="w-full h-[24rem] rounded-lg object-cover"
               />
               <div className="absolute inset-0 rounded-xl bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
             </div>
