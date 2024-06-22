@@ -1,4 +1,4 @@
-import { CiLocationOn } from "react-icons/ci";
+
 import { TfiEmail } from "react-icons/tfi";
 import { IoCallOutline } from "react-icons/io5";
 import styles from "./Footer.module.css";
@@ -6,9 +6,7 @@ import Contacts from "../contacts/Contacts";
 
 
 const Footer = () => {
-  const handleLocationClick = () => {
-    window.open("https://maps.app.goo.gl/i7uME11YN9x258RD6", "_blank");
-  };
+ 
 
   const handleMailClick = () => {
     window.open("mailto:goatmarketing766@gmail.com", "_blank");
